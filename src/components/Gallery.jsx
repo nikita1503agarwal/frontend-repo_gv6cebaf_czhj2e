@@ -14,7 +14,7 @@ const Gallery = () => {
     <section className="relative bg-[#0b0b0f] text-white py-24">
       <div className="mx-auto max-w-6xl px-6">
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-10">Lifestyle Gallery</h2>
-        <div className="columns-2 md:columns-3 gap-4 [column-fill:_balance]"><!-- eslint-disable-line react/no-unknown-property -->
+        <div className="columns-2 md:columns-3 gap-4 [column-fill:_balance]">
           {images.map((src, i) => (
             <motion.div
               key={src}
